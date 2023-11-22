@@ -1,0 +1,39 @@
+.logo {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.navbar{
+    width:100vw;
+    max-width: 75rem;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.navmenulistitems{
+margin: 1rem;
+cursor: pointer;
+}
+
+.navmenulistitems:hover{
+    color:black;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid black;
+}
+.navBtn{
+    background-color: rgb(68, 68, 160);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    border-color: white;
+    border-style: none;
+    display: flex;
+    align-items: center;
+}
