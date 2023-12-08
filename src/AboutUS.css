@@ -1,6 +1,14 @@
+.abt{
+    background-color: rgb(217, 217, 217,0.87);
+    font-family: "Inter";
+    width: 100%;
+    font-weight: 700;
+    height: 100%;
+}
 .maininfo{
     display: flex;
     width: 100%;
+    background-color: white;;
     justify-content: space-between;
     /* margin-bottom: 50px; */
     max-height: 400px;
@@ -24,7 +32,7 @@
     margin: 10px auto; 
 }
 
-.main{
+.main1{
    display: flex;
    justify-content: center;
    gap: 30px;
@@ -77,7 +85,7 @@
 .secondcard{
     background-color: rgb(217, 217, 217, 0.58);
     z-index: 10;
-    border-radius: 20px;
+    border-radius: 0 0 30px 30px;
     height: 120px;
     /* margin-bottom: 20px; */
     padding: 0px 100px 66px 94px;
@@ -85,4 +93,67 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.con1{
+    display:flex ;
+    justify-content: center;
+    gap: 30px;
+    text-align:center;
+    padding: 0 30px 30px 0; 
+    margin: 30px 30px 30px 30px;
+    align-items: end;  
+    
+}
+.subcontainer{
+    background: url('./assets/educationimg.jpg');
+    background-size: cover;
+    justify-content: center;
+    width: 400px;
+    border-radius: 30px;
+    height: 350px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.background1 h2{
+    font-size: 20px;
+}
+.background1 p{
+    font-size: 13px;
+}
+.bg1{
+    text-align: justify;
+    padding: 15px;
+    font-size: 13px;
+}
+.subcontainer1{
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer1 h2{
+    font-size: 20px;
+    text-align:start;
+}
+.subcontainer1 p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+
+
+.background1{
+    background-color: rgb(217, 217, 217, 0.58);
+    z-index: 10;
+    border-radius: 0 0 30px 30px;
 }

@@ -3,7 +3,7 @@ import docimg from './assets/docimg.png'
 import './AboutUS.css';
 const AboutUS = () => {
     return (
-        <div>
+        <div className='abt'>
             <div className='maininfo'>
                 <img src={docimg} alt="Doctor Ajay kumar Image" className='doctorimg' />
                 <div className="docinfo">
@@ -25,17 +25,42 @@ const AboutUS = () => {
 
                 </div>
             </div>
-            <div className='main'>
+            <div className='main1'>
                 <div className='secondsec'>
                     <div className='secondcard'>
-                    <h2 className='head'>Registrations:</h2>
-                    <p>55395 Andhra Pradesh Medical Council, 2006</p>
+                        <h2 className='head'>Registrations:</h2>
+                        <p>55395 Andhra Pradesh Medical Council, 2006</p>
                     </div>
                 </div>
                 <div className='secondsec1'>
                     <div className='secondcard'>
                         <h2 className='head'>Awards and Recognizations:</h2>
                         <p>Performed 3000 Spinal Surgeries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='con1'>
+                <div className='subcontainer'>
+                    <div className='background1'>
+                        <div className='bg1'>
+                            <h2>Education:</h2>
+                            <p>MBBS - University of Kathmandu, 2003<br />
+                                MS - Orthopaedics - Sardar Patel Post Graduate Institute of Dental Medical Sciences, 200<br />
+                                M.Ch - Orthopaedics - University Of Dundee, Scotland, 2011</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='container1'>
+                    <div className='subcontainer1'>
+                        <h2 className='bg2'>Experience:</h2>
+                        <p>2006 - 2009 Senior Registrar at Nizam Institute of Medical Sciences.</p>
+                        <p>2009 - 2010 Junior Consultant at Apollo Hospital</p>
+                        <p>2010 - 2011 Fellowship at Nine wells Hospitals Dundee</p>
+                        <p>2011 - Present Connsultant Orthopedic Surgeon at Apollo Hospital</p>
+                        <p>2016 - 2016 Consultant Orthopaedic Surgeon at kims Hospital Kondapur</p>
+                        <p>2016 - 2018 Global Cheif & Head of Department at Gleneagles Global Hospital, Lakdikapul</p>
+                        <p>2019 - 2019 senior consultant spine and arthroscopy surgeon kims kondapur at kims hospital kondapur</p>
                     </div>
                 </div>
             </div>
