@@ -1,21 +1,27 @@
 import Navbar from "./components/NavBar/navbar";
-import Intro from "./components/Intro/intro";
-import { MemberCard, SpecCard, SurveyCard, } from "./components/Cards/cards";
-// import{ MemberCard } from "./components/Cards/cards";
 import './App.css';
-import Testimonials from "./components/Testimonials/testimonials";
+import AboutUS from "./AboutUS";
+import ContactUS from "./ContactUS";
 import Footer from "./components/Footer/footer";
+import Home from "./Home";
 function App() {
+  let component 
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home />
+      break
+    case "/AboutUS":
+      component = <AboutUS />
+      break
+    case "/ContactUS/>":
+      component= <ContactUS/>
+      break
+  }
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <Intro />
-      <div className="gridcard">
-        <div><SpecCard /></div>
-        <div><MemberCard /></div>
-      </div>
-      <div className="item1"><SurveyCard /></div>
-      <Testimonials/>
+      {component}
+      
       <Footer/>
     </div>
   );

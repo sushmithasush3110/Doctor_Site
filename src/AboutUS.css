@@ -1,0 +1,88 @@
+.maininfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-bottom: 50px; */
+    max-height: 400px;
+}
+.doctorimg{
+    margin-left: 90px;
+    height:400px;
+}
+.docinfo{
+    width: 60%;
+    height: 500px;
+    margin: 70px auto;
+}
+
+.docinfo p{
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 10px auto; 
+}
+
+.main{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   text-align:center;
+   /* padding: 0 30px 30px 0; */
+   margin: 30px 30px 30px 30px;
+   align-items: end;  
+}
+.secondsec{
+    background: url('./assets/hand-with-pen-application-form.jpg');
+    background-size: cover;
+    justify-content: center;
+    width: 400px;
+    border-radius: 20px;
+    height: 200px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.secondsec h2{
+    font-size: 15px;
+    padding: 2px;
+    margin-top: 20px;
+}
+.secondsec p{
+    font-size: 13px;
+}
+
+.secondcard h2{
+    font-size: 15px;
+    padding: 2px;
+    margin-top: 20px;
+}
+.secondcard p{
+    font-size: 13px;
+}
+.secondsec1{
+    background: url('./assets/awards.jpg');
+    background-size: cover;
+    justify-content: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.secondcard{
+    background-color: rgb(217, 217, 217, 0.58);
+    z-index: 10;
+    border-radius: 20px;
+    height: 120px;
+    /* margin-bottom: 20px; */
+    padding: 0px 100px 66px 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

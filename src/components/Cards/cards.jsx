@@ -1,45 +1,47 @@
 import React from "react";
 import './cards.css';
-import Surgeryimg from '../../assets/Surgeryimg.jpg';
-import Specimg from '../../assets/Specimg.jpg'
-import MemberCard1 from '../../assets/MemberCard.jpg'
 export const SpecCard = () => {
     return (
-        <div className="card1">
-            <img src={Specimg} alt="Specialiazation_image" className="cardimg1"></img>
-            <h2 className="cardhead1">Specialiazations</h2>
-            <ul className="cardlist1">
-                <li>Spine Surgeon (Ortho)</li>
-                <li>Spine And Pain Specialist</li>
-                <li>Orthopedic surgeon</li>
-            </ul>
+        <div className="maincard" id="spec">
+            <div className="maincard1">
+            <div className="card1">
+                <h2>Specialiazations</h2>
+                <ul>
+                    <li>Spine Surgeon (Ortho)</li>
+                    <li>Spine And Pain Specialist</li>
+                    <li>Orthopedic surgeon</li>
+                </ul>
+            </div>
+            </div>
         </div>
     )
 }
 export const MemberCard = () => {
     return (
-        <div className="card1">
-            <img src={MemberCard1} alt="Specialiazation_image" className="cardimg1"></img>
-            <h2 className="cardhead1">Memberships</h2>
-            <ul className="cardlist1">
-                <li>Indian Orthopaedic Association</li>
-                <li>Indian Medical Association (IMA)</li>
-                <li>Indian Arthroscopy Society</li>
-            </ul>
+        <div className="maincard">
+            <div className="maincard2">
+            <div className="card1">
+                <h2 >Memberships</h2>
+                <ul>
+                    <li>Indian Orthopaedic Association</li>
+                    <li>Indian Medical Association (IMA)</li>
+                    <li>Indian Arthroscopy Society</li>
+                </ul>
+            </div>
+            </div>
         </div>
     )
 
 }
 export const SurveyCard = () => {
     return (
-        <div className="mainsurveycard">
-            <div className="card3">
-                <div>
-                    <img src={Surgeryimg} alt="Surgery_image" className="cardimg3"></img>
-                </div>
-                <div>
-                    <h2 className="cardhead1">Services</h2>
-                    <div className="card-container">
+        <div className="subcard" id="services">
+            <div className="subcard1">
+
+                <div className="card2">
+                    <div className="opacity">
+                    <h2 className="head">Services</h2>
+                    <div style={{ display: 'flex' }}>
 
                         <div className="list">
                             <ul>
@@ -78,7 +80,9 @@ export const SurveyCard = () => {
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
+            {/* <div className="lastcard"><img src={Surgeryimg} alt="Surgery_image" className="cardimg3"></img></div> */}
         </div>
 
     )

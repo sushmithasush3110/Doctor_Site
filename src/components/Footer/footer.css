@@ -1,14 +1,7 @@
-body{
-	line-height: 1.5;
-}
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
+
 .container{
 	max-width: 1170px;
-	margin:auto;
+	margin:100px;
 }
 .row{
 	display: flex;
@@ -18,8 +11,9 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: rgb(68, 68, 160);
-    padding: 70px 0;
+	background-color: black;
+    padding: 5px 0;
+	height: 350px;
 }
 .footer-col{
    width: 25%;

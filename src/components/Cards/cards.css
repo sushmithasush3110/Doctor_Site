@@ -1,38 +1,57 @@
-.card1{
-    border:1px solid rgb(68, 68, 160);
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-    margin:20px;
-    display: inline-block;
-    max-width: 400px;
+.maincard{
+    width: 450px;
+    height: 400px;
+    margin-top: 20px;
 }
-.cardimg1{
-    max-width: 100%;
-    height: auto;
-    border-top-right-radius:10px;
-    border-top-left-radius:10px;
+.maincard1{
+    background: url('../../assets/front_view.jpg');
+    background-size: cover;
+    display: flex;
+    border-radius:20px;
+    align-items: end;
+    height: 400px;
+}
+.card1{
+    width: 100%;
+    padding: 0 0 20px 30px;
+    border-radius: 0 0 20px 20px;
+    padding-left: 10px;
+    background-color: rgba(217, 217, 217, 0.3);
+    top: 280px;
+
+}
+.maincard2{
+    background: url('../../assets/doc_nurse.jpg');
+    background-size: cover;
+    display: flex;
+    border-radius:20px;
+    align-items: end;
+    height: 400px;
+}
+.subcard1{
+    background: url('../../assets/woman-running.jpg');
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.cardimg3{
+    border-radius: 20px;
+    margin-top: 80px;
+    height: 582px;
+    z-index: -1;
 }
 
+.subcard{
+    /* height: 100px; */
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cardhead1{
     padding-top: 1px;
     text-align: center;
     margin-bottom: 1px;
-}
-.card3{
-    border:1px solid rgb(68, 68, 160);
-    max-width: fit-content;
-    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-    border-top-right-radius:10px;
-    border-top-left-radius:10px;
-    display: flex;
-    flex-direction: column;
-}
-.cardimg3{
-    width: 100%;
-    height: 400px;
-    border-top-right-radius:10px;
-    border-top-left-radius:10px;
 }
 .card-container{
     display: flex;
@@ -47,9 +66,28 @@
     list-style: none;
     padding-bottom: 5px;
 }
-.mainsurveycard{
+.card2{
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    height: 500px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+    flex-direction: column;
+    top: 3px;
 }
+.opacity{
+    background-color: rgba(217, 217, 217, 0.3);
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.head{
+    text-align: center;
+}
+/* .lastcard{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} */

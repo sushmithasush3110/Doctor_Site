@@ -5,7 +5,15 @@
     justify-content: center;
     align-items: flex-start;
 }
-.item1{
+/* .item1{
     grid-column-start: 1;
   grid-column-end: 3;
+}  */
+
+.mainAlign{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  padding:60px;
 }

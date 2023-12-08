@@ -10,31 +10,30 @@ const Footer=() => {
         <div class="container">
             <div class="row">
                 <div class="footer-col">
-                    <h4>company</h4>
+                    <h4>Clinic</h4>
                     <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">affiliate program</a></li>
+                    <li><a href="/">Home</a></li>
+                        <li><a href="/AboutUS">about us</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#stories">Stories</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>get help</h4>
+                    <h4>Specializations</h4>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
+                        <li><a href="#">Spine Surgeon (Ortho)</a></li>
+                        <li><a href="#">Spine And Pain Specialist</a></li>
+                        <li><a href="#">Orthopedic surgeon</a></li>
+                        <li><a href="#">Joint Replacement Surgeon</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>online shop</h4>
+                    <h4>Contact Us</h4>
                     <ul>
-                        <li><a href="#">watch</a></li>
-                        <li><a href="#">bag</a></li>
-                        <li><a href="#">shoes</a></li>
-                        <li><a href="#">dress</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">phone number : +9111111111</a></li>
+                        <li><a href="#">Online Payment available</a></li>
+                        <li><a href="#">Book Appiontments</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

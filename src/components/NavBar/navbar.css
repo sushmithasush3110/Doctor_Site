@@ -1,6 +1,7 @@
 .logo {
     width: 200px;
     height: 80px;
+    padding: 15px;
     object-fit: cover;
 }
 .navbar{
@@ -8,7 +9,7 @@
     height: 5rem;
     margin: 0 auto;
     padding: 1rem 2rem;
-    background-color: white;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,21 +17,31 @@
     top: 0;
     z-index: 3;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navMenu{
+    color:white;
+}
 .navmenulistitems{
 margin: 1rem;
 cursor: pointer;
+font-size: 14px;
 }
 
-.navmenulistitems:hover{
-    color:black;
+.navmenulistitems:hover{ 
+    color:rgb(169, 169, 172);
     padding-bottom: 0.3rem;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 .navBtn{
-    background-color: rgb(68, 68, 160);
-    color: white;
-    border-radius: 2rem;
-    padding: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 1rem;
+    padding: 0.75rem;
     justify-content: center;
     border-color: white;
     border-style: none;
