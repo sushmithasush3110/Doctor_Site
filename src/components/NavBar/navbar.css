@@ -9,15 +9,14 @@
     height: 5rem;
     margin: 0 auto;
     padding: 1rem 2rem;
+    z-index: 9999;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
 }
-
 a{
     text-decoration: none;
     color: white;

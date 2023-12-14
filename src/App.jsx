@@ -1,9 +1,12 @@
 import Navbar from "./components/NavBar/navbar";
 import './App.css';
-import AboutUS from "./AboutUS";
+import About from "./AboutUS";
 import ContactUS from "./ContactUS";
 import Footer from "./components/Footer/footer";
 import Home from "./Home";
+import AboutUS from "./AboutUS";
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 function App() {
   let component 
   switch (window.location.pathname) {
@@ -19,10 +22,14 @@ function App() {
   }
   return (
     <div>
-      <Navbar />
-      {component}
+      {/* <Navbar />
       
+      
+      <Footer/> */}
+      <Header/>
+      {component}
       <Footer/>
+      
     </div>
   );
 }

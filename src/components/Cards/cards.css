@@ -42,8 +42,6 @@
 }
 
 .subcard{
-    /* height: 100px; */
-    /* margin-top: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,9 +83,3 @@
 .head{
     text-align: center;
 }
-/* .lastcard{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-} */

@@ -6,10 +6,10 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 const Footer=() => {
     return (
-        <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
+        <footer className="footer1">
+        <div className="container1">
+            <div className="row1">
+                <div className="footer-col1">
                     <h4>Clinic</h4>
                     <ul>
                     <li><a href="/">Home</a></li>
@@ -18,7 +18,7 @@ const Footer=() => {
                         <li><a href="/#stories">Stories</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div className="footer-col1">
                     <h4>Specializations</h4>
                     <ul>
                         <li><a href="#">Spine Surgeon (Ortho)</a></li>
@@ -27,7 +27,7 @@ const Footer=() => {
                         <li><a href="#">Joint Replacement Surgeon</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div className="footer-col1">
                     <h4>Contact Us</h4>
                     <ul>
                         <li><a href="#">Location</a></li>
@@ -36,9 +36,9 @@ const Footer=() => {
                         <li><a href="#">Book Appiontments</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div className="footer-col1">
                     <h4>follow us</h4>
-                    <div class="social-links">
+                    <div className="social-links">
                         <a href="#"><FaInstagram /></a>
                         <a href="#"><FaSquareFacebook /></a>
                         <a href="#"><FaXTwitter /></a>
