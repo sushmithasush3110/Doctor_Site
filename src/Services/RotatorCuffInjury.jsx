@@ -7,9 +7,9 @@ const RotatorCuffInjury = () => {
             <div className='container-fluid position-relative' style={{ padding: "0px", marginBottom: '60px' }}>
                 <div className="col-md-12">
                     <img src={RotatorCuffImg} alt="Rotator Cuff Injury" className='' style={{ width: "100%" }} />
-                    <div className='row position-absolute' style={{ top: '50%', left: '50%', transform: 'translate(-50%,-50%)', backgroundColor: '#f2f2f2bd', color: '#131212bd', borderRadius: '20px' }}>
+                    {/* <div className='row position-absolute' style={{ top: '50%', left: '50%', transform: 'translate(-50%,-50%)', backgroundColor: '#f2f2f2bd', color: '#131212bd', borderRadius: '20px' }}>
                         <h2>Rotator Cuff Injury Treatment</h2>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

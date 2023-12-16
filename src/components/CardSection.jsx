@@ -51,12 +51,12 @@ export default function CardSection() {
                                 <ul>
                                         <li><a href='/Services/Frozenshoulder'>Frozen Shoulder Treatment</a></li>
                                         <li><a href='/Services/LigamentReconstruction'>Ligament Reconstruction</a></li>
-                                        <li><a href='/Services/ShoulderArthroscopy'>Shoulder arthroscopy</a></li>
+                                        <li><a href='/Services/ShoulderArthroscopy'>Shoulder Arthroscopy</a></li>
                                         <li><a href='/Services/KneeArthroscopy'>Knee arthroscopy</a></li>
                                         <li><a href='/Services/SpinalDeformityCorrection'>Spinal Deformity Correction</a></li>
-                                        <li>neck and spine surgery</li>
-                                        <li>Spinal Disorders</li>
-                                        <li>Shoulder SLAP (Tear) Lesions</li>
+                                        <li><a href='/Services/NeckSpineSurgery'>Neck and Spine Surgery</a></li>
+                                        <li><a href='/Services/SpinalDisorders'>Spinal Disorders</a></li>
+                                        <li><a href='/Services/SLAPLesions'>Shoulder SLAP (Tear) Lesions</a></li>
                                     </ul>
                                 </div>
                                 <div className='col-md-4'>
@@ -66,9 +66,9 @@ export default function CardSection() {
                                         <li><a href='/Services/KneeOsteotomy'>Knee Osteotomy</a></li>
                                         <li><a href='/Services/KneeReplacement'>Knee Replacement</a></li>
                                         <li><a href='/Services/SpinalFusion'>Spinal Fusion</a></li>
-                                        <li>Laminectomy</li>
-                                        <li>Joint Replacement Surgery</li>
-                                        <li>Spinal Surgery</li>
+                                        <li><a href='/Services/Laminectomy'>Laminectomy</a></li>
+                                        <li><a href='/Services/JointReplacementSurgery'>Joint Replacement Surgery</a></li>
+                                        <li><a href='/Services/SpinalSurgery'>Spinal Surgery</a></li>
                                     </ul>
                                 </div>
                                 <div className='col-md-4'>
@@ -78,8 +78,8 @@ export default function CardSection() {
                                         <li><a href='/Services/RevisionArthroplasty'>Revision Hip and Knee Arthroplasty</a></li>
                                         <li><a href='/Services/BankartRepair'>Bankart Repair</a></li>
                                         <li><a href='/Services/RotatorCuffInjury'>Rotator Cuff Injury Treatment</a></li>
-                                        <li>Spinal Disc Surgery</li>
-                                        <li>Kyphoplasty</li>
+                                        <li><a href='/Services/SpinalDiscSurgery'>Spinal Disc Surgery</a></li>
+                                        <li><a href='/Services/Kyphoplasty'>Kyphoplasty</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -19,6 +19,14 @@ import KneeArthroscopy from './Services/KneeArthroscopy';
 import SpinalDeformityCorrection from './Services/Spinal Deformity Correction';
 import SpinalFusion from './Services/SpinalFusion';
 import RotatorCuffInjury from './Services/RotatorCuffInjury';
+import NeckSpineSurgery from './Services/NeckSpineSurgery';
+import SpinalDisorders from './Services/SpinalDisorders';
+import SLAPLesions from './Services/SLAPLesions';
+import Laminectomy from './Services/Laminectomy';
+import JointReplacementSurgery from './Services/JointReplacementSurgery';
+import SpinalSurgery from './Services/SpinalSurgery';
+import SpinalDiscSurgery from './Services/SpinalDiscSurgery';
+import Kyphoplasty from './Services/Kyphoplasty';
 function App() {
   let component
   switch (window.location.pathname) {
@@ -76,11 +84,35 @@ function App() {
     case "/Services/RotatorCuffInjury":
       component = <RotatorCuffInjury />
       break
+    case "/Services/NeckSpineSurgery":
+      component = <NeckSpineSurgery />
+      break
+    case "/Services/SpinalDisorders":
+      component = <SpinalDisorders />
+      break
+    case "/Services/SLAPLesions":
+      component = <SLAPLesions />
+      break
+      case "/Services/Laminectomy":
+        component = <Laminectomy />
+        break
+        case "/Services/JointReplacementSurgery":
+        component = <JointReplacementSurgery />
+        break
+        case "/Services/SpinalSurgery":
+        component = <SpinalSurgery />
+        break
+        case "/Services/SpinalDiscSurgery":
+        component = <SpinalDiscSurgery />
+        break
+        case "/Services/Kyphoplasty":
+        component = <Kyphoplasty />
+        break
   }
   return (
     <div>
       <Header />
-      {component}
+      {component}  
       <Footer />
 
     </div>
