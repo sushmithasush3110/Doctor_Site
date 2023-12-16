@@ -9,7 +9,7 @@ const AboutUS = () => {
         <div className='abt'>
             <div className='container-fluid position-relative' style={{ padding: "0px" }}>
                 <div className="col-md-12">
-                    <img src={BannerImg} alt="" className='' style={{ width: "100%" }} />
+                    <img src={BannerImg} alt="" style={{ width: "100%" }} />
                 </div>
                 <div className='position-absolute text-white' style={{top:'50%', left:'50%', transform: 'translate(-50%, -50%)'}}>
                     <h1>About US</h1>
