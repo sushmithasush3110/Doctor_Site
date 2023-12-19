@@ -8,17 +8,17 @@ const ACLReconstruction = () => {
                 <div className="col-md-12">
                     <img src={ACLimg} alt="" className='' style={{ width: "100%" }} />
                     <div className='row position-absolute' style={{ top: '50%', left: '50%', transform: 'translate(-50%,-50%)', backgroundColor:'#f2f2f2bd', color:'#131212bd', borderRadius:'20px'  }}>
-                        <h2>ACL Reconstruction</h2>
+                        <h2 className='h4title'>ACL Reconstruction</h2>
                     </div>
                 </div>
             </div>
 
             <div className='container' style={{ background: '#f2f2f2', padding: '60px' }}>
-                <div className='row' style={{ paddingLeft: '40px', textAlign: 'justify' }}>
+                <div className='row' style={{textAlign: 'justify' }}>
                     <div className='col-md-12'>
                         <div className='row'>
                             <h4>Description:-</h4><hr />
-                            <p style={{ paddingLeft: '40px' }}>The anterior cruciate ligament (ACL) is important for maintaining stability of the knee joint, particularly in activities involving weaving, pivoting or kicking. The knee becomes unstable with a ruptured ACL and the joint may become more damaged over time. ACL reconstruction is the surgical treatment of choice to restore stability at the knee joint.</p>
+                            <p>The anterior cruciate ligament (ACL) is important for maintaining stability of the knee joint, particularly in activities involving weaving, pivoting or kicking. The knee becomes unstable with a ruptured ACL and the joint may become more damaged over time. ACL reconstruction is the surgical treatment of choice to restore stability at the knee joint.</p>
                             <h4>Symptoms of ACL Injury:-</h4><hr />
                             <p>These injuries are common, especially among athletes participating in high-impact sports. Here's a detailed overview of ACL reconstruction, covering symptoms, causes, and treatment:</p>
 

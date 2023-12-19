@@ -14,7 +14,7 @@ const Laminectomy = () => {
             </div>
 
             <div className='container' style={{ background: '#f2f2f2', padding: '60px' }}>
-                <div className='row' style={{ paddingLeft: '40px', textAlign: 'justify' }}>
+                <div className='row' style={{textAlign: 'justify' }}>
                     <div className='col-md-12'>
                         <div className='row'>
                             <h4>Definition:-</h4><hr />

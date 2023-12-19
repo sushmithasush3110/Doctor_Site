@@ -8,13 +8,13 @@ const HipKneeArthroplasty = () => {
                 <div className="col-md-12">
                     <img src={Hipkneeimg} alt="" className='' style={{ width: "100%" }} />
                     <div className='row position-absolute' style={{ top: '50%', left: '50%', transform: 'translate(-50%,-50%)', backgroundColor: '#f2f2f2bd', color: '#131212bd', borderRadius: '20px' }}>
-                        <h2>Primary Hip and Knee Arthroplasty</h2>
+                        <h2  className='h4title'>Primary Hip and Knee Arthroplasty</h2>
                     </div>
                 </div>
             </div>
 
             <div className='container' style={{ background: '#f2f2f2', padding: '60px' }}>
-                <div className='row' style={{ paddingLeft: '40px', textAlign: 'justify' }}>
+                <div className='row' style={{textAlign: 'justify' }}>
                     <div className='col-md-12'>
                         <div className='row'>
                             <h4>Definition:-</h4><hr />

@@ -8,13 +8,13 @@ const SpinalDeformityCorrection = () => {
                 <div className="col-md-12">
                     <img src={SpinalDeformityImg} alt="" className='' style={{ width: "100%" }} />
                     <div className='row position-absolute' style={{ top: '50%', left: '50%', transform: 'translate(-50%,-50%)', backgroundColor: '#d6d5d5', color: 'black', borderRadius: '20px' }}>
-                        <h2>Spinal Deformity Correction</h2>
+                        <h2  className='h4title'>Spinal Deformity Correction</h2>
                     </div>
                 </div>
             </div>
 
             <div className='container' style={{ background: '#f2f2f2', padding: '60px' }}>
-                <div className='row' style={{ paddingLeft: '40px', textAlign: 'justify' }}>
+                <div className='row' style={{textAlign: 'justify' }}>
                     <div className='col-md-12'>
                         <div className='row'>
                             <h4>Definition:-</h4><hr />
