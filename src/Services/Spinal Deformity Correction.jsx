@@ -1,5 +1,5 @@
 import React from 'react'
-import SpinalDeformityImg from './SpinalDeformityCorrection.jpg';
+import SpinalDeformityImg from '../assets/SpinalDeformityCorrection.jpg';
 
 const SpinalDeformityCorrection = () => {
     return (

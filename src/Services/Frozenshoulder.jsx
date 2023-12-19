@@ -1,5 +1,5 @@
 import React from 'react'
-import frozenimg from './frozenimg1.jpg'
+import frozenimg from '../assets/frozenimg1.jpg'
 
 const Frozenshoulder = () => {
     return (

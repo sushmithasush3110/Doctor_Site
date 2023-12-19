@@ -1,5 +1,5 @@
 import React from 'react'
-import SpinalSurgeryImg from './SpinalSurgeryMain.jpg'
+import SpinalSurgeryImg from '../assets/SpinalSurgeryMain.jpg'
 
 const SpinalSurgery = () => {
     return (

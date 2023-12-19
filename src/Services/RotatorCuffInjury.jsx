@@ -1,5 +1,5 @@
 import React from 'react'
-import RotatorCuffImg from './Rotatorcufftearimg.jpg';
+import RotatorCuffImg from '../assets/Rotatorcufftearimg.jpg';
 
 const RotatorCuffInjury = () => {
     return (

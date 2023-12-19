@@ -1,5 +1,5 @@
 import React from 'react';
-import DiscSurgeryImg from './DiscSurgeryMain.jpg';
+import DiscSurgeryImg from '../assets/DiscSurgeryMain.jpg';
 
 const SpinalDiscSurgery = () => {
     return (

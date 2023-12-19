@@ -9,14 +9,15 @@ export default function CardSection() {
                     <div className="card" style={{ borderRadius: '30px' }}>
                         {/* <img src={specicard} class="card-img-top" alt="..." /> */}
                         <div className="card-body" style={{ backgroundImage: `url(${specicard})`, backgroundSize: 'cover', paddingTop: '200px', paddingLeft: '0px', paddingRight: '0px', paddingBottom: '0px', borderRadius: '30px' }}>
-                            <div style={{ background: "#f2f2f2bd", padding: '30px', borderRadius: '0px 0px 30px 30px' }}>
+                            <div style={{ background: "#f2f2f2bd", padding: '20px', borderRadius: '0px 0px 30px 30px' }}>
                                 <h5 className="card-title">Specializations</h5>
-                                <ul>
-                                    <li>Spine Surgeon (Ortho)</li>
-                                    <li>Spine And Pain Specialist</li>
-                                    <li>Orthopedic surgeon</li>
+                                <ul className='linkstyle'>
+                                    <li><a href='/Specializations/SpineSurgeon'>Spine Surgeon (Ortho)</a></li>
+                                    <li><a href='/Specializations/SpineAndPainSpecialist'>Spine And Pain Specialist</a></li>
+                                    <li><a href='/Specializations/OrthopedicSurgeon'>Orthopedic surgeon</a></li>
+                                    <li><a href='/Specializations/JointReplacementSurgeon'>Joint Replacement Surgeon</a></li>
                                 </ul>
-                            </div>
+                            </div>   
 
                         </div>
                     </div>
@@ -40,15 +41,15 @@ export default function CardSection() {
 
             </div>
             <div className="row" style={{ paddingTop: '60px'}} >
-                <div className="container d-flex align-items-end" style={{ backgroundImage: `url(${servicescard})`, backgroundSize: 'cover', height: '600px', borderRadius:'30px' }}>
+                <div className="container d-flex align-items-end" style={{ backgroundImage: `url(${servicescard})`, backgroundSize: 'cover', height: '600px', borderRadius:'30px'}}>
                     <div className="row">
                         <div className="col-md-12">
-                            <div className='row' style={{ background: "#f2f2f2bd", padding: '30px', borderRadius: '0px 0px 30px 30px', width:'71.3rem' }}>
+                            <div className='row' style={{ background: "#f2f2f2bd", padding: '30px', borderRadius: '0px 0px 30px 30px', width:'71.3rem'}}>
                                 <div className='row text-center'>
                                     <h5 className="card-title pb-5">Services</h5>
                                 </div>
                                 <div className='col-md-4'>
-                                <ul>
+                                <ul className='linkstyle'>
                                         <li><a href='/Services/Frozenshoulder'>Frozen Shoulder Treatment</a></li>
                                         <li><a href='/Services/LigamentReconstruction'>Ligament Reconstruction</a></li>
                                         <li><a href='/Services/ShoulderArthroscopy'>Shoulder Arthroscopy</a></li>
@@ -60,7 +61,7 @@ export default function CardSection() {
                                     </ul>
                                 </div>
                                 <div className='col-md-4'>
-                                <ul>
+                                <ul className='linkstyle'>
                                         <li><a href='/Services/ACLReconstruction'>ACL Reconstruction</a></li>
                                         <li><a href='/Services/Arthroscopy'>Arthroscopy</a></li>
                                         <li><a href='/Services/KneeOsteotomy'>Knee Osteotomy</a></li>
@@ -72,7 +73,7 @@ export default function CardSection() {
                                     </ul>
                                 </div>
                                 <div className='col-md-4'>
-                                <ul>
+                                <ul className='linkstyle'>
                                         <li><a href='/Services/Fracture'>Fracture Treatment</a></li>
                                         <li><a href='/Services/HipKneeArthroplasty'>Primary Hip and Knee Arthroplasty</a></li>
                                         <li><a href='/Services/RevisionArthroplasty'>Revision Hip and Knee Arthroplasty</a></li>
@@ -86,7 +87,6 @@ export default function CardSection() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 

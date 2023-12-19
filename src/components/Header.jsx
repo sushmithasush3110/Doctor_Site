@@ -20,16 +20,17 @@ function Header() {
                 <a className="nav-link" href="/AboutUS">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Services</a>
+                <a className="nav-link" href="/Services">Services</a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/Specializations">Specializations</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Specialization</a>
+                <a className="nav-link" href="/Stories">Stories</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Stories</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Contact Us</a>
+                <a className="nav-link" href="/ContactUS">Contact Us</a>
               </li>
             </ul>
           </div>

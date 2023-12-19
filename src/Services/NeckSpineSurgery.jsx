@@ -1,5 +1,5 @@
 import React from 'react';
-import NeckSpineImg from './NeckSpineSurgeryImage.jpg';
+import NeckSpineImg from '../assets/NeckSpineSurgeryImage.jpg';
 
 const NeckSpineSurgery = () => {
     return (

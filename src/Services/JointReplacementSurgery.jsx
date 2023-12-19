@@ -1,5 +1,5 @@
 import React from 'react'
-import JointReplacementImg from './JointReplacementMain.jpg'
+import JointReplacementImg from '../assets/JointReplacementMain.jpg'
 
 const JointReplacementSurgery = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import LaminectomyImg from './LaminectomyMain.jpg';
+import LaminectomyImg from '../assets/LaminectomyMain.jpg';
 
 const Laminectomy = () => {
     return (

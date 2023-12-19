@@ -1,5 +1,5 @@
 import React from 'react'
-import Fracimg from './Fracture1img.jpg'
+import Fracimg from '../assets/Fracture1img.jpg'
 
 const Fracture = () => {
     return (

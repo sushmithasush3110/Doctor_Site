@@ -1,5 +1,5 @@
 import React from 'react';
-import KneeArthroscopyImg from './kneearthroscopy1.jpg';
+import KneeArthroscopyImg from '../assets/kneearthroscopy1.jpg';
 
 const KneeArthroscopy = () => {
     return (

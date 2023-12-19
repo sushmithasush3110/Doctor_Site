@@ -1,5 +1,5 @@
 import React from 'react';
-import KyphoplastyImg from './KyphoplastyMain.jpg';
+import KyphoplastyImg from '../assets/KyphoplastyMain.jpg';
 
 const Kyphoplasty = () => {
     return (

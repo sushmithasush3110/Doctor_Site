@@ -1,5 +1,5 @@
 import React from 'react'
-import ACLimg from './ACLimg.jpg'
+import ACLimg from '../assets/ACLimg.jpg'
 
 const ACLReconstruction = () => {
     return (

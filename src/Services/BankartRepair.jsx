@@ -1,5 +1,5 @@
 import React from 'react';
-import BankartRepairImg from './Bankartrepairimg1.jpg';
+import BankartRepairImg from '../assets/Bankartrepairimg1.jpg';
 
 const BankartRepair = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import LigamentReconstructionImg from './ligamentrecimg.jpg';
+import LigamentReconstructionImg from '../assets/ligamentrecimg.jpg';
 
 const LigamentReconstruction = () => {
     return (

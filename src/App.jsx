@@ -27,6 +27,13 @@ import JointReplacementSurgery from './Services/JointReplacementSurgery';
 import SpinalSurgery from './Services/SpinalSurgery';
 import SpinalDiscSurgery from './Services/SpinalDiscSurgery';
 import Kyphoplasty from './Services/Kyphoplasty';
+import Services from './Servicesmain';
+import Stories from './Storiesmain';
+import Specializations from './Specializationsmain';
+import SpineSurgeon from './Specializations/SpineSurgeon';
+import SpineAndPainSpecialist from './Specializations/SpineAndPainSpecialist';
+import OrthopedicSurgeon from './Specializations/OrthopedicSurgeon';
+import JointReplacementSurgeon from './Specializations/JointReplacementSurgeon';
 function App() {
   let component
   switch (window.location.pathname) {
@@ -93,21 +100,47 @@ function App() {
     case "/Services/SLAPLesions":
       component = <SLAPLesions />
       break
-      case "/Services/Laminectomy":
-        component = <Laminectomy />
+    case "/Services/Laminectomy":
+      component = <Laminectomy />
+      break
+    case "/Services/JointReplacementSurgery":
+      component = <JointReplacementSurgery />
+      break
+    case "/Services/SpinalSurgery":
+      component = <SpinalSurgery />
+      break
+    case "/Services/SpinalDiscSurgery":
+      component = <SpinalDiscSurgery />
+      break
+    case "/Services/Kyphoplasty":
+      component = <Kyphoplasty />
+      break
+
+    case "/Services":
+      component = <Services />
+      break
+    case "/contactus":
+      component = <ContactUS />
+      break
+    case "/specializations":
+      component = <Specializations />
+      break
+    case "/stories":
+      component = <Stories />
+      break
+    case "/Specializations/SpineSurgeon":
+      component = <SpineSurgeon />
+      break
+    case "/Specializations/SpineAndPainSpecialist":
+      component = <SpineAndPainSpecialist />
+      break
+    case "/Specializations/OrthopedicSurgeon":
+      component = <OrthopedicSurgeon />
+      break
+      case "/Specializations/JointReplacementSurgeon":
+        component = <JointReplacementSurgeon/>
         break
-        case "/Services/JointReplacementSurgery":
-        component = <JointReplacementSurgery />
-        break
-        case "/Services/SpinalSurgery":
-        component = <SpinalSurgery />
-        break
-        case "/Services/SpinalDiscSurgery":
-        component = <SpinalDiscSurgery />
-        break
-        case "/Services/Kyphoplasty":
-        component = <Kyphoplasty />
-        break
+
   }
   return (
     <div>

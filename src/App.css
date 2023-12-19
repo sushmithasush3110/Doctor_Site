@@ -17,3 +17,12 @@
   align-items: center;
   padding:60px;
 }
+.linkstyle li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkstyle :hover{
+  color: blue;
+  cursor: pointer;
+}

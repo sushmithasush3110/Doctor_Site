@@ -1,5 +1,5 @@
 import React from 'react'
-import Arthoimg from './Arthroscopymain.jpg'
+import Arthoimg from '../assets/Arthroscopymain.jpg'
 
 const Arthroscopy = () => {
     return (

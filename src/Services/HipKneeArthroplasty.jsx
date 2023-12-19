@@ -1,5 +1,5 @@
 import React from 'react';
-import Hipkneeimg from './Hipkneeimgmain.jpg';
+import Hipkneeimg from '../assets/Hipkneeimgmain.jpg';
 
 const HipKneeArthroplasty = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import KneeOsteotomyImg from './KneeOsteotomymain.jpg';
+import KneeOsteotomyImg from '../assets/KneeOsteotomymain.jpg';
 
 const KneeOsteotomy = () => {
     return (

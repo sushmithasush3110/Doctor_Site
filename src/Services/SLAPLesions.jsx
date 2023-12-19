@@ -1,5 +1,5 @@
 import React from 'react';
-import SLAPimg from './SLAPLesionsmain.jpg';
+import SLAPimg from '../assets/SLAPLesionsmain.jpg';
 
 const SLAPLesions = () => {
     return (
