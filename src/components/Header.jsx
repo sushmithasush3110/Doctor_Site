@@ -23,12 +23,12 @@ function Header() {
                 <a className="nav-link" href="/Services">Services</a>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/Specializations">Specializations</a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/Stories">Stories</a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/ContactUS">Contact Us</a>
               </li>

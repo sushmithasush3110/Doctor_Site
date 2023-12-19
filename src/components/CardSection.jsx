@@ -11,11 +11,11 @@ export default function CardSection() {
                         <div className="card-body" style={{ backgroundImage: `url(${specicard})`, backgroundSize: 'cover', paddingTop: '200px', paddingLeft: '0px', paddingRight: '0px', paddingBottom: '0px', borderRadius: '30px' }}>
                             <div style={{ background: "#f2f2f2bd", padding: '20px', borderRadius: '0px 0px 30px 30px' }}>
                                 <h5 className="card-title">Specializations</h5>
-                                <ul className='linkstyle'>
-                                    <li><a href='/Specializations/SpineSurgeon'>Spine Surgeon (Ortho)</a></li>
-                                    <li><a href='/Specializations/SpineAndPainSpecialist'>Spine And Pain Specialist</a></li>
-                                    <li><a href='/Specializations/OrthopedicSurgeon'>Orthopedic surgeon</a></li>
-                                    <li><a href='/Specializations/JointReplacementSurgeon'>Joint Replacement Surgeon</a></li>
+                                <ul>
+                                    <li>Spine Surgeon (Ortho)</li>
+                                    <li>Spine And Pain Specialist</li>
+                                    <li>Orthopedic surgeon</li>
+                                    <li>Joint Replacement Surgeon</li>
                                 </ul>
                             </div>   
 

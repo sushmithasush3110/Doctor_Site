@@ -43,7 +43,7 @@ function App() {
     case "/AboutUS":
       component = <AboutUS />
       break
-    case "/ContactUS>":
+    case "/ContactUS":
       component = <ContactUS />
       break
     case "/Services/Frozenshoulder":
@@ -122,7 +122,7 @@ function App() {
     case "/contactus":
       component = <ContactUS />
       break
-    case "/specializations":
+    case "/Specializations":
       component = <Specializations />
       break
     case "/stories":
