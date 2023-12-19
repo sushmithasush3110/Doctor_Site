@@ -5,11 +5,6 @@
     justify-content: center;
     align-items: flex-start;
 }
-/* .item1{
-    grid-column-start: 1;
-  grid-column-end: 3;
-}  */
-
 .mainAlign{
   display: flex;
   flex-direction: column;
@@ -26,3 +21,46 @@
   color: blue;
   cursor: pointer;
 }
+
+.bannerImage{
+  width: 100%;
+}
+
+.bannerh4span{
+  font-size: 25px;
+}
+
+.bannercontainer{
+  background-image: url('/src/assets/banner.jpg');
+   background-size: cover !important;
+    padding:40px 0px !important;
+}
+.bannerContent{
+ padding:80px !important; 
+  margin:auto;
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+   .bannerContent{
+    /* background: #00000021; */
+    padding:20px !important; 
+     margin:auto;
+   }
+   .bannerContent p{
+    font-size: 10px !important;
+   }
+   .bannerh4span{
+    font-size: 14px;
+   }
+   .Servicebgimg{
+    background-size: cover !important;
+    padding: 0px !important;
+    border-radius:30px !important;
+    width: 100% !important;
+   }
+   .bgcolor{
+    border-radius: 30px !important;
+   }
+ }

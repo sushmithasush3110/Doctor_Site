@@ -45,35 +45,3 @@ p{
     /* font-weight: 100; */
 }
 
-@media screen and (max-width:390px){
-    .bg{
-        width: 100vw;
-        height: 25vh;
-        object-fit: cover;
-        position: absolute;
-    }
-
-    #intro{
-        position: relative;
-    }
-
-    .introcontent{
-        display:block;
-        font-size: 10px;
-        margin-top: 30px;
-        color: black;
-        width: 170px;
-        letter-spacing: 2px;
-    }
-    .hello{
-        font-size: 10px;
-        font-weight: bold;
-    }
-    .name{
-        font-size: 10px;
-        color: rgb(139, 26, 26);
-    }
-    p{
-        font-size: 10px;
-    }
-}

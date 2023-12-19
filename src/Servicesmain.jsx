@@ -1,5 +1,6 @@
 import React from 'react'
 import Servicesimg from './assets/OurServicesmain.jpg'
+import Servicelogo from './assets/Serviceslogo.png'
 
 const Servicesmain = () => {
   return (
@@ -23,7 +24,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Frozen Shoulder Treatment</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It includes physical therapy,
                         pain relief medications, and, in severe cases, surgical interventions to improve joint movement.</p>
@@ -36,7 +37,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                    <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Ligament Reconstruction</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Ligament reconstruction surgically replaces
                         a torn ligament with graft tissue to restore joint stability and function</p>
@@ -49,7 +50,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                    <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Shoulder Arthroscopy</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It is a minimally invasive surgical
                         procedure to diagnose and treat shoulder joint issues using a specialized camera and instruments.</p>
@@ -62,7 +63,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Knee arthroscopy</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It is a minimally invasive surgical procedure
                         involving the use of an arthroscope to diagnose and treat joint issues through small incisions..</p>
@@ -77,7 +78,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Spinal Deformity Correction</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It involves realigning
                         the spine using surgical techniques like spinal fusion  or osteotomies (cutting and repositioning bone),
@@ -91,7 +92,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Neck and Spine Surgery</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Delicate procedures addressing disorders in the neck and spine,
                         often involving minimally invasivetechniques to repair or stabilize vertebrae, discs, and nerves,
@@ -105,7 +106,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Spinal Disorders</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>
                         A diverse and complex bunch of conditions affecting the spine, causing pain, deformity, and nerve dysfunction, often
@@ -119,7 +120,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Shoulder SLAP (Tear) Lesions</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Shoulder SLAP (Superior Labral Anterior to Posterior)
                         tears are injuries that occur in the superior portion of the labrum, often associated with trauma or overuse,
@@ -135,7 +136,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">ACL Reconstruction</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>ACL reconstruction is surgery to reconstruct the
                         ligament in the center of your knee. The anterior cruciate ligament (ACL) connects your shin bone (tibia)
@@ -149,7 +150,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Arthroscopy</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Arthroscopy is a procedure for diagnosing and
                         treating joint problems. A surgeon inserts a narrow tube attached to a fiber-optic video camera through
@@ -163,7 +164,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Knee Replacement</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It is a surgical procedure that replaces a damaged 
                       knee joint with artificial implants. It's commonly performed to treat severe pain and disability caused by 
@@ -177,7 +178,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Knee Osteotomy</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It involves the intentional cutting and reshaping
                         of the bone around the knee joint to redistribute weight and alleviate pressure, often used to address
@@ -194,7 +195,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Spinal Fusion</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Spinal fusion is a surgical procedure that
                         involves joining two or more vertebrae to stabilize the spine and alleviate pain by promoting the
@@ -208,7 +209,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Laminectomy</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It is a surgical procedure involving
                         the removal of the lamina, a portion of the vertebral bone, to alleviate pressure on the spinal cord
@@ -222,7 +223,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Joint Replacement Surgery</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Joint replacement surgery involves the removal
                         of damaged or diseased joint components and their replacement with artificial implants to restore
@@ -236,7 +237,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Spinal Surgery</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It is a procedure performed
                         to address issues related to the spine, such as herniated discs, spinal deformities, often
@@ -253,7 +254,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Fracture Treatment</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a
                        plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
@@ -266,7 +267,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Primary Hip and Knee Arthroplasty</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>This Surgery uses Implants
                         made from metal, high density polyethylene or ceramic to replace a diseased or worn out hip joint.</p>
@@ -279,7 +280,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Revision Hip and Knee Arthroplasty</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>In this procedure, your doctor removes some or
                         all of the parts of the original prosthesis and replaces them with new ones.</p>
@@ -292,7 +293,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Bankart Repair</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Bankart repair is a surgical procedure aimed at
                         stabilizing the shoulder joint by reattaching and tightening the torn or detached labrum to address
@@ -309,7 +310,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Rotator Cuff Injury Treatment</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>It involves
                         a combination of rest, physical therapy, anti-inflammatory medications, and in some cases, surgical
@@ -323,7 +324,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Spinal Disc Surgery</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>Diskectomy is surgery to remove the damaged part
                        of a disk in the spine that has its soft center pushing out through the tough outer lining. A herniated
@@ -337,7 +338,7 @@ const Servicesmain = () => {
                 <div className='row'>
                   <div className="card" style={{ width: "18rem;" }}>
                     <div className="card-body text-md-center lh-base ">
-                      <img src="" alt='' className='mb-2' style={{ background: "#ccc", height: "90px", width: "90px" }} />
+                      <img src={Servicelogo} alt='' className='mb-2' style={{width: "35%" }} />
                       <h6 className="card-title fw-bold">Kyphoplasty</h6>
                       <p className="card-text" style={{ fontSize: '14px' }}>kyphoplasty injects special cement into your 
                       vertebrae — with the additional step of creating space for the treatment with a balloon-like device (balloon vertebroplasty).</p>
