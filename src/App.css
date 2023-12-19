@@ -39,6 +39,9 @@
  padding:80px !important; 
   margin:auto;
 }
+.logostyle{
+  width: 30%;
+}
 
 
  /* Small devices (landscape phones, 576px and up) */
@@ -65,5 +68,11 @@
    }
   .h4title{
     font-size: 14px !important;
+  }
+  .locationstyle{
+    width: 370px;
+  }
+  .logostyle{
+    width: 50%;
   }
  }
