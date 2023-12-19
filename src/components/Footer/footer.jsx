@@ -14,8 +14,8 @@ const Footer=() => {
                     <ul>
                     <li><a href="/">Home</a></li>
                         <li><a href="/AboutUS">about us</a></li>
-                        <li><a href="/#services">Services</a></li>
-                        <li><a href="/#stories">Stories</a></li>
+                        <li><a href="/Services">Services</a></li>
+                        <li><a href="/ContactUS">Contact us</a></li>
                     </ul>
                 </div>
                 <div className="footer-col1">
@@ -30,8 +30,8 @@ const Footer=() => {
                 <div className="footer-col1">
                     <h4>Contact Us</h4>
                     <ul>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">phone number : +9111111111</a></li>
+                        <li><a href="/ContactUS">Location</a></li>
+                        <li><a href="#">phone number : 040-44885000</a></li>
                         <li><a href="#">Online Payment available</a></li>
                         <li><a href="#">Book Appiontments</a></li>
                     </ul>
