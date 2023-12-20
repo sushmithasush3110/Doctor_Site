@@ -19,7 +19,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ const Servicescard = () => {
                                     <div class="card-body">
                                         <h5 class="card-title">Fracture Treatment</h5>
                                         <p class="card-text" style={{ fontSize: '14px' }}>Treatment includes immobilising the bone with a plaster cast, or surgically inserting metal rods or plates to hold the bone pieces together.</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View more</a>
+                                        <a href="#" class="btn btn-sm text-white" style={{background:'#28a9e0'}}>View more</a>
                                     </div>
                                 </div>
                             </div>
