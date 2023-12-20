@@ -2,16 +2,23 @@ import BannerImg from "../assets/banner.jpg";
 
 export default function Banner(){
     return(
-        <div className="col-12 bannercontainer">
+        <div className="container-fluid">
             <div className="row">
-                <div className="col-4"></div>
-                <div className="col-8 bannerContent" >
+        <div className="col-md-12 p-5 bannercontainer">
+            <div className="row resheader">
+                <div className="col-md-6 p-5">
                     <div className="row">
-                        <p>Hello, I'm <span className="bannerh4span">Dr.Ajay Kumar Parchuri</span> Orthopedic Surgeon
-                        I am a Orthopedic Excellence: Expert Care for Your Mobility and Well-being</p>
+                    <h1>Best Orthopedic Doctor in Hyderabad for Joint Replacement & Arthroscopy</h1>
                     </div>
                 </div>
+                <div className="col-md-6 bannerContent" >
+                    <div className="row">
+                        
+                    </div>
+                </div>
+                </div>
             </div>
+        </div>
         </div>
     )
 }
