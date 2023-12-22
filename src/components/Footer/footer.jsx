@@ -20,7 +20,7 @@ const Footer=() => {
                     </div>
                 </div>
                 <div className="footer-col1">
-                    <h4>Clinic</h4>
+                    <h4>Quick Links</h4>
                     <ul>
                     <li><a href="/">Home</a></li>
                         <li><a href="/AboutUS">about us</a></li>

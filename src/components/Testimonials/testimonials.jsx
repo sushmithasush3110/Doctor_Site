@@ -23,6 +23,7 @@ export default function Testimonials() {
                 autoplay = {true}
             >
                 <div className="slidecard">
+                <div>hello</div>
                 <SwiperSlide>
                     <TestimonialCard name="Ankush Patial" tagline="Visited For Bone FractureSpinal Therapy" content="Have been visiting Dr Ajay for quite some time due to various different issues we got(unfortunately ), for my small toe fracture, back issue, my wife's wrist pain due to pregnancy and her shoulder issue which happened during gym. Dr Ajay is very nice in explainig thing. He doesn't rush and explain things clearly with references like xrays and googled images and body structure. He also performed my Wife's wrist surgery in his clinic, for which she is recovering fine. Just expect little delay sometimes with ur appointment time."/>
                 </SwiperSlide>

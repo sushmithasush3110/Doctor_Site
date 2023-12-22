@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Stories = () => {
   return (
     <div className='container-fluid p-5' style={{background:'#ccc'}}>
+      <h2 className='text-center mb-3 pb-3' style={{color:'rgb(62, 147, 193)'}}>Testimonials</h2>
     <Carousel className='mx-auto' style={{ maxWidth: '800px', background: '#f2f2f2', borderRadius:'30px'}}>
       <Carousel.Item interval={1000} className='p-5 text-align-justify w-100' style={{borderRadius:'30px'}}>
         <div className='text-center'>

@@ -6,8 +6,10 @@ export default function TestimonialCard({name, tagline, content}) {
         <>
          
         <div className="testimonial">
+            
             <div className="firsttest">
                 <div className="innercard">
+                <div>hello</div>
                     <p>{name}</p>
                     <h3>{tagline}</h3>
                     <p>{content}</p>
