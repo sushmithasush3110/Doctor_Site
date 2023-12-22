@@ -71,7 +71,7 @@ export default function CardSection() {
                 <div className='container p-5'>
                     <div className='row'>
                         <div className='col-md-9'>
-                            <div className='row p-5'>
+                            <div className='row exp' style={{padding:'5rem'}}>
                                 <h4 style={{ color: 'rgb(62, 147, 193)' }}>Experience:</h4>
                                 <ul>
                                     <li>Consultant Orthopaedic & Arthroscopic Surgeon at Apollo Hospitals, Hyderabad</li>
