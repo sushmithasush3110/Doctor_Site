@@ -58,6 +58,15 @@
 
  /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
+  .exp{
+    padding: 0px!important;
+    width: 100%  !important;
+  }
+  .exp li{
+    padding: 9px !important;
+    /* list-style: disc !important; */
+  }
+
    .bannerContent{
     /* background: #00000021; */
     padding:25px !important; 
@@ -95,4 +104,5 @@
     border-bottom: 3px solid !important;
     border-color:  rgb(62, 147, 193) !important;
   }
+  
  }
