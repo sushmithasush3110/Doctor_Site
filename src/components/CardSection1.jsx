@@ -13,7 +13,7 @@ export default function CardSection() {
                                     <div className="card" style={{ borderRadius: '30px', padding: '0px' }}>
                                         <div className="card-body" style={{ backgroundImage: `url(${specicard})`, backgroundSize: 'cover', padding: '200px 0px 0px 0px', borderRadius: '30px' }}>
                                             <div style={{ background: "#f2f2f2bd", borderRadius: '0px 0px 30px 30px', padding: '20px' }}>
-                                                <h5 className="card-title">Specializations</h5>
+                                                <h3 className="card-title">Specializations</h3>
                                                 <ul>
                                                     <li>Spine Surgeon (Ortho)</li>
                                                     <li>Spine And Pain Specialist</li>

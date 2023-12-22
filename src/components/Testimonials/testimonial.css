@@ -1,12 +1,14 @@
-.firsttest{
+.firsttest {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.testimonial{
-margin: 20px;
-width: 100%;
+
+.testimonial {
+    margin: 20px;
+    width: 100%;
 }
+
 /* .slidecard{
     padding: 20px;
     margin: 300px;
@@ -23,23 +25,32 @@ width: 100%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     margin: 20px;
 }
-.innercard h3{
+
+.innercard h3 {
     font-size: 14px;
-   line-height: 2.5;
+    line-height: 2.5;
 }
-.innercard p{
+
+.innercard p {
     font-size: 12px;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     color: black !important;
 }
-.swiper-pagination-bullets{
+
+.swiper-pagination-bullets {
     color: black !important;
     opacity: 1;
 
 }
-.swiper{
+
+.swiper {
     background: #f2f2f2;
-    padding:60px !important;
+    padding: 60px !important;
+}
+
+.carousel-indicators button {
+    background-color: black !important;
 }

@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './testimonial.css'
 export default function TestimonialCard({name, tagline, content}) {
     return (
+        <>
+         
         <div className="testimonial">
             <div className="firsttest">
                 <div className="innercard">
@@ -12,5 +14,6 @@ export default function TestimonialCard({name, tagline, content}) {
                 </div>
             </div>
         </div>
+        </>
     );
 }

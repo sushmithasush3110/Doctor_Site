@@ -21,10 +21,10 @@
   color: blue;
   cursor: pointer;
 }
-
+/* 
 .bannerImage{
   width: 100%;
-}
+} */
 
 .bannerh4span{
   font-size: 25px;
@@ -34,6 +34,7 @@
   background-image: url('/src/assets/mainbg.jpg');
    background-size: cover !important;
     padding:60px 0px !important;
+    height: 100vh;
 }
 .bannerContent{
  padding:80px !important; 
@@ -41,6 +42,17 @@
 }
 .logostyle{
   width: 30%;
+}
+
+.nav-link:hover{
+  color: rgb(62, 147, 193) !important;
+  /* text-decoration: underline; */
+  border-bottom: 3px solid !important;
+  border-color:  rgb(62, 147, 193) !important;
+}
+
+.conbtn:hover{
+  background-color: rgb(38, 105, 142) !important;
 }
 
 
@@ -77,5 +89,10 @@
   }
   .resheader{
     margin-right: 0px !important;
+  }
+  .nav-link:hover{
+    color: rgb(62, 147, 193) !important;
+    border-bottom: 3px solid !important;
+    border-color:  rgb(62, 147, 193) !important;
   }
  }

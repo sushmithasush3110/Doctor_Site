@@ -9,6 +9,16 @@ const Footer=() => {
         <footer className="footer1">
         <div className="container1">
             <div className="row1">
+            <div className="footer-col1" style={{padding:'10px'}}>
+                    <h4>Clinic</h4>
+                    <p style={{color:'#fff'}}>Dr.Ajay kumar orthopedic clinic, Hyderabad's best orthopedic clinic offers you the best </p>
+                    <div className="social-links">
+                        <a href="#"><FaInstagram /></a>
+                        <a href="#"><FaSquareFacebook /></a>
+                        <a href="#"><FaXTwitter /></a>
+                        <a href="#"><FaLinkedin /></a>
+                    </div>
+                </div>
                 <div className="footer-col1">
                     <h4>Clinic</h4>
                     <ul>
@@ -36,15 +46,7 @@ const Footer=() => {
                         <li><a href="#">Book Appiontments</a></li>
                     </ul>
                 </div>
-                <div className="footer-col1">
-                    <h4>follow us</h4>
-                    <div className="social-links">
-                        <a href="#"><FaInstagram /></a>
-                        <a href="#"><FaSquareFacebook /></a>
-                        <a href="#"><FaXTwitter /></a>
-                        <a href="#"><FaLinkedin /></a>
-                    </div>
-                </div>
+                 
             </div>
         </div>
    </footer>

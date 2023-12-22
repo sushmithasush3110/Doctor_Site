@@ -12,6 +12,7 @@ import TestimonialCard from "./testimonialcard";
 export default function Testimonials() {
     return (
         <div id="stories">
+            
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 slidesPerView={3}
