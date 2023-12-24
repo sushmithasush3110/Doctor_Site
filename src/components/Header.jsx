@@ -6,7 +6,7 @@ import logoimg from '../assets/logo.png';
 function Header() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-light p-3" style={{position:'fixed', top:'0', zIndex:'10'}}>
+      <nav class="navbar navbar-expand-lg bg-light p-3">
         <div class="container-fluid">
           <a className="navbar-brand " href="/" style={{width:'70%'}}><img src={logoimg}className='logostyle' alt="Logo"></img></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
