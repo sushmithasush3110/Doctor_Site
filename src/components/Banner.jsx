@@ -2,7 +2,7 @@ import BannerImg from "../assets/banner.jpg";
 
 export default function Banner(){
     return(
-        <div className="container-fluid mt-5">
+        <div className="container-fluid">
             <div className="row">
         <div className="col-md-12 p-5 bannercontainer">
             <div className="row resheader">
